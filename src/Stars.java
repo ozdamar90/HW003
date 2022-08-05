@@ -18,12 +18,14 @@ public class Stars {
             *	*	*	*	*	*	*	*	*	*	*	*
             *	*	*	*	*	*
          */
+
         Scanner input=new Scanner(System.in);
+        System.out.println("Yıldız Tablosu");
         System.out.print("Yıldız Adedi Giriniz :");
         int yıldız=input.nextInt();
         System.out.print("Sütun Adedi Giriniz :");
         int sutun=input.nextInt();
-        for (int i = 0; i <yıldız ; i++) {
+        for (int i = 1; i <yıldız ; i++) {
             System.out.print("*\t\t");
             if (i % sutun == 0) {
                 System.out.print("\n");
